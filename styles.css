@@ -1,0 +1,97 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  background-color: #EEEEEE;
+  text-align: center;
+  margin: 0px auto;
+}
+
+/***--------------------------------------------------------------------***/
+.header {
+  display: inline-block;
+  width: 860px;
+  height: 244px;
+  background-color: #FEFEFE;
+  border: 3px solid black;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.Logo_Homepage {
+	display: block;
+  float: left;
+  padding: 20px 0px;
+  height: 200px;
+  width: auto;
+}
+
+.title_text {
+  padding-top: 9%;
+  padding-bottom: 6%;
+}
+.site_title {
+  font-style: italic;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.site_nav {
+  font-family: 'Titillium Web', sans-serif;
+}
+.site_nav ul {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+.site_nav li {
+  float: left;
+  margin: 10px 20px;
+  border-bottom: 3px solid #9cb4ab;
+}
+.site_nav li:hover {
+	border-bottom: 3px solid #ebc494;
+}
+.nav_link {
+  text-decoration: none;
+  color: black;
+}
+
+/***--------------------------------------------------------------------***/
+.article {
+  display: inline-block;
+  width: 860px;
+  text-align: left;
+  background-color: #FEFEFE;
+  margin-top: 30px;
+  border: 2px solid gray;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.article_title {
+  font-weight: bold;
+  font-size: 30px;
+}
+.article_img {
+  padding-bottom: 25px;
+  width: 100%;
+}
+.article_video {
+  width: 100%;
+  height: 500px;
+  padding-bottom: 25px;
+}
+.link {
+  text-decoration: underline;
+  color: inherit;
+}
+.link:hover {
+  color: #ff8d00;
+}
+
+/***--------------------------------------------------------------------***/
+.footer {
+  display: block;
+  font-size: 15px;
+  margin-bottom: 10px;
+  border-top: 3px dotted gray;
+}
